@@ -35,7 +35,7 @@ En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de 
 ## 📫 Contacto
 Si quieres colaborar o conocer más sobre mis proyectos:  
 - GitHub: [raulgarzav404-droid](https://github.com/raulgarzav404-droid)  
-- Email: [tu-correo@example.com]  ón en [tu universidad o institución]
+- Email: [raul.garzav404@gmail.com]  ón en [tu universidad o institución]
 * Certificaciones: [lista de certificaciones]
 
 ## Portafolio
