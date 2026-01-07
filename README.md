@@ -1,10 +1,41 @@
-# Bienvenido a mi página de ciberseguridad
+# 🛡️ Bienvenido a mi página de ciberseguridad
 
-Soy [Tu nombre], un apasionado de la ciberseguridad con experiencia en [tu área de especialización]. En este sitio, compartiré mis conocimientos y proyectos sobre ciberseguridad.
+Soy **David Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
+En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de sistemas, análisis de vulnerabilidades y laboratorios prácticos.
 
-## Sobre mí
-* Experiencia en [tu área de especialización]
-* Educación en [tu universidad o institución]
+---
+
+## 👨‍💻 Sobre mí
+- **Experiencia:** Configuración de entornos seguros, análisis de vulnerabilidades y prácticas en laboratorios de ciberseguridad.  
+- **Educación:** En constante aprendizaje y formación en seguridad informática.  
+- **Certificaciones en progreso:**  
+  - Cisco CyberOps Associate  
+  - Ethical Hacking  
+
+---
+
+## 📂 Portafolio
+
+### 🔍 Proyecto 1: Análisis de vulnerabilidades en sistemas de prueba
+- **Descripción:** Evaluación de seguridad en un entorno controlado para identificar riesgos potenciales.  
+- **Tecnologías utilizadas:** Kali Linux, Nmap, Wireshark.  
+- **Resultados:** Identificación de vulnerabilidades críticas y propuesta de mitigación.  
+- 🔗 [Repositorio o demo](enlace)
+
+---
+
+### 🛠️ Proyecto 2: Desarrollo de herramienta de seguridad
+- **Descripción:** Creación de una herramienta para automatizar tareas de seguridad defensiva.  
+- **Tecnologías utilizadas:** Python, Bash, GitHub Actions.  
+- **Resultados:** Herramienta funcional para monitoreo y respuesta rápida.  
+- 🔗 [Repositorio o demo](enlace)
+
+---
+
+## 📫 Contacto
+Si quieres colaborar o conocer más sobre mis proyectos:  
+- GitHub: [raulgarzav404-droid](https://github.com/raulgarzav404-droid)  
+- Email: [tu-correo@example.com]  ón en [tu universidad o institución]
 * Certificaciones: [lista de certificaciones]
 
 ## Portafolio
