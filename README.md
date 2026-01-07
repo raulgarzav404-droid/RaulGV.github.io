@@ -1,6 +1,6 @@
 # 🛡️ Bienvenido a mi página de ciberseguridad
 
-Soy **David Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
+Soy **Raul Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
 En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de sistemas, análisis de vulnerabilidades y laboratorios prácticos.
 
 ---
