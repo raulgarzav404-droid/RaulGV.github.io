@@ -1,1 +1,23 @@
+# 🛡️ Bienvenido a mi página de ciberseguridad
 
+Soy **Raul Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
+En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de sistemas, análisis de vulnerabilidades y laboratorios prácticos.
+
+---
+
+## 👨‍💻 Sobre mí
+- **Experiencia:** Configuración de entornos seguros, análisis de vulnerabilidades y prácticas en laboratorios de ciberseguridad.  
+- **Educación:** En constante aprendizaje y formación en seguridad informática.  
+- **Certificaciones en progreso:**  
+  - Cisco CyberOps Associate  
+  - Ethical Hacking  
+
+---
+
+## 📂 Portafolio
+
+### 🔍 Proyecto 1: Análisis de vulnerabilidades en sistemas de prueba
+- **Descripción:** Evaluación de seguridad en un entorno controlado para identificar riesgos potenciales.  
+- **Tecnologías utilizadas:** Kali Linux, Nmap, Wireshark.  
+- **Resultados:** Identificación de vulnerabilidades críticas y propuesta de mitigación.  
+- 🔗
