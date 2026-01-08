@@ -3,6 +3,9 @@ layout: default
 title: Home
 ---
 
+<link rel="stylesheet" href="assets/css/style.css">
+
+
 # 🛡️ Bienvenido a mi página de ciberseguridad
 
 Soy **Raul Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
