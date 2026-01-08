@@ -23,19 +23,6 @@ p {
   line-height: 1.8;
 }
 
-/* Estilos generales (PC) */
-body {
-  background: linear-gradient(to right, #ff0000, #000000);
-  font-family: Arial, sans-serif;
-  color: white;
-}
-
-/* Encabezado */
-h1 {
-  text-align: center;
-  font-size: 3em;
-  color: #00ff00;
-}
 
 /* 📱 Ajustes para pantallas pequeñas (celulares) */
 @media (max-width: 600px) {
@@ -57,8 +44,8 @@ h1 {
   min-width: 100%;
   min-height: 100%;
   z-index: -1;
-  object-fit: cover;
-  object-position: 50% 30%;
-
+  object-fit: contain;   /* muestra todo el video */
+  object-position: center; /* centra el video */
+  background-color: black; /* rellena las barras con negro */
 }
 
