@@ -5,18 +5,10 @@ title: Home
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="assets/css/style.css">
 
-<!-- Video de fondo (oculto por CSS con display:none) -->
+
 <video autoplay muted loop id="bg-video">
   <source src="assets/video/RAGV-fondo.mp4" type="video/mp4">
 </video>
-
-<!-- Nuevo banner -->
-<div class="video-banner">
-  <video autoplay muted loop>
-    <source src="assets/video/RAGV-fondo.mp4" type="video/mp4">
-  </video>
-</div>
-
 
 
 # 🛡️ Bienvenido a mi página de ciberseguridad
