@@ -1,10 +1,18 @@
 /* Fondo degradado muy visible */
 body {
-  background: linear-gradient(to right, #ff0000, #000000);
+  background: linear-gradient(270deg, #ff0000, #000000, #00ff00);
+  background-size: 600% 600%;
+  animation: moverFondo 10s ease infinite;
   font-family: 'Segoe UI', Arial, sans-serif;
   color: white;
   margin: 0;
   padding: 0;
+}
+
+@keyframes moverFondo {
+  0% { background-position:0% 50%; }
+  50% { background-position:100% 50%; }
+  100% { background-position:0% 50%; }
 }
 
 /* Encabezado enorme y centrado */
@@ -14,14 +22,33 @@ h1 {
   margin-top: 100px;
   color: #00ff00;
   text-shadow: 2px 2px 5px black;
+  animation: aparecer 2s ease-in-out;
 }
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
 
 /* Párrafos con estilo */
 p {
   text-align: center;
   font-size: 1.5em;
   line-height: 1.8;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  animation: fadeIn 3s ease-in-out;
 }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 
 
 /* 📱 Ajustes para pantallas pequeñas (celulares) */
@@ -65,16 +92,7 @@ p {
   z-index: 1;
   padding: 40px 20px;
 }
-p {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 1.8;
-  background: rgba(0, 0, 0, 0.5); /* fondo negro semitransparente */
-  color: white;                   /* texto blanco para contraste */
-  padding: 10px 20px;              /* espacio interno */
-  border-radius: 8px;              /* esquinas redondeadas */
-  display: inline-block;           /* ajusta al tamaño del texto */
-}
+
 .carousel-item img {
   height: 500px;                  /* altura fija */
   object-fit: contain;            /* ajusta la imagen completa */
@@ -82,6 +100,17 @@ p {
   border-radius: 10px;            /* esquinas redondeadas */
   box-shadow: 0 4px 15px rgba(0,0,0,0.7); /* sombra */
 }
+
+/* Animación captions */
+.carousel-caption h5, .carousel-caption p {
+  animation: slideUp 1s ease-in-out;
+}
+
+@keyframes slideUp {
+  from { transform: translateY(50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
 
 .carousel-caption h5 {
   color: #00ff00; /* verde neón */
@@ -96,4 +125,14 @@ p {
 
 .carousel-indicators [data-bs-target] {
   background-color: #00ff00;
+}
+
+
+/* Botones y enlaces animados */
+a, .btn {
+  transition: all 0.3s ease-in-out;
+}
+a:hover, .btn:hover {
+  color: #00ff00; /* verde hacker */
+  transform: scale(1.1); /* se agranda un poco */
 }
