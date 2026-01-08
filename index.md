@@ -14,15 +14,15 @@ title: Home
 
 <div class="content">
   <h1>🛡️ Bienvenido a mi página de ciberseguridad</h1>
-  <p>Este es el texto principal de tu página.</p>
+  <p>Soy **Raul Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
+En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de sistemas, análisis de vulnerabilidades y laboratorios prácticos.</p>
 </div>
 
 
 
-# 🛡️ Bienvenido a mi página de ciberseguridad
 
-Soy **Raul Garza**, apasionado de la ciberseguridad y en formación como **Blue Team Specialist**.  
-En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de sistemas, análisis de vulnerabilidades y laboratorios prácticos.
+
+
 
 ---
 
