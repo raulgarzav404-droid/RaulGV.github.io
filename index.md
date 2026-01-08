@@ -51,7 +51,7 @@ title: Home
 En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de sistemas, análisis de vulnerabilidades y laboratorios prácticos.</p>
 </div>
 
----
+<hr class="my-4">
 
 ## 👨‍💻 Sobre mí
 - **Experiencia:** Configuración de entornos seguros, análisis de vulnerabilidades y prácticas en laboratorios de ciberseguridad.  
@@ -59,29 +59,44 @@ En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de 
 - **Certificaciones en progreso:**  
   - Cisco CyberOps Associate  
   - Ethical Hacking  
-
----
+<hr class="my-4">
 <!-- Carrusel -->
 <div class="container mt-5">
   <h2 class="text-center text-success">🚀 Mis proyectos destacados</h2>
   
-  <div id="carouselCyber" class="carousel slide" data-bs-ride="carousel">
+  <div id="carouselCyber" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+    <!-- Indicadores -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselCyber" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#carouselCyber" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#carouselCyber" data-bs-slide-to="2"></button>
+    </div>
+
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="assets/img/proyecto1.jpeg" class="d-block w-100" alt="Proyecto 1">
         <div class="carousel-caption d-none d-md-block">
           <h5>🔍 Proyecto 1</h5>
-          <p>Análisis de vulnerabilidades.</p>
+          <p>Análisis de vulnerabilidades con Nmap.</p>
         </div>
       </div>
       <div class="carousel-item">
         <img src="assets/img/proyecto2.jpeg" class="d-block w-100" alt="Proyecto 2">
         <div class="carousel-caption d-none d-md-block">
           <h5>🛡️ Proyecto 2</h5>
-          <p>Defensa de sistemas.</p>
+          <p>Defensa de sistemas en laboratorio.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/proyecto3.jpeg" class="d-block w-100" alt="Proyecto 3">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>💻 Proyecto 3</h5>
+          <p>Monitoreo de tráfico con Wireshark.</p>
         </div>
       </div>
     </div>
+
     <!-- Controles -->
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselCyber" data-bs-slide="prev">
       <span class="carousel-control-prev-icon"></span>
@@ -91,6 +106,9 @@ En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de 
     </button>
   </div>
 </div>
+
+<hr class="my-4">
+
 
 
 

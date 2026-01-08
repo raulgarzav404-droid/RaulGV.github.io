@@ -75,3 +75,7 @@ p {
   border-radius: 8px;              /* esquinas redondeadas */
   display: inline-block;           /* ajusta al tamaño del texto */
 }
+.carousel-item img {
+  height: 500px;       /* altura fija */
+  object-fit: cover;   /* recorta la imagen para llenar el espacio */
+}
