@@ -4,6 +4,9 @@ title: Home
 ---
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="assets/css/style.css">
+<video autoplay muted loop id="bg-video">
+  <source src="assets/video/RAGV-fondo.mp4" type="video/mp4">
+</video>
 
 
 # 🛡️ Bienvenido a mi página de ciberseguridad
