@@ -22,3 +22,30 @@ p {
   font-size: 1.5em;
   line-height: 1.8;
 }
+
+/* Estilos generales (PC) */
+body {
+  background: linear-gradient(to right, #ff0000, #000000);
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* Encabezado */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  color: #00ff00;
+}
+
+/* 📱 Ajustes para pantallas pequeñas (celulares) */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 2em;   /* título más pequeño */
+    color: yellow;    /* cambia color en móvil */
+  }
+
+  p {
+    font-size: 1em;   /* texto más compacto */
+    text-align: left; /* texto alineado a la izquierda */
+  }
+}
