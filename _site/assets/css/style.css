@@ -58,5 +58,7 @@ h1 {
   min-height: 100%;
   z-index: -1;
   object-fit: cover;
+  object-position: center;
+
 }
 
