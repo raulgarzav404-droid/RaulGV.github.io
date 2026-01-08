@@ -61,6 +61,37 @@ En este sitio comparto mis aprendizajes, proyectos y experiencias en defensa de 
   - Ethical Hacking  
 
 ---
+<!-- Carrusel -->
+<div class="container mt-5">
+  <h2 class="text-center text-success">🚀 Mis proyectos destacados</h2>
+  <div id="carouselCyber" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="assets/img/proyecto1.png" class="d-block w-100" alt="Proyecto 1">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>🔍 Proyecto 1</h5>
+          <p>Análisis de vulnerabilidades.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/img/proyecto2.png" class="d-block w-100" alt="Proyecto 2">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>🛡️ Proyecto 2</h5>
+          <p>Defensa de sistemas.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Controles -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCyber" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselCyber" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</div>
+
+
 
 ## 📂 Portafolio
 
