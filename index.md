@@ -5,6 +5,11 @@ title: Home
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="assets/css/style.css">
 
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<button class="btn btn-primary">Mi botón</button>
+<p class="text-center text-light bg-dark p-3">Texto con Bootstrap</p>
+
 
 <video autoplay muted loop id="bg-video">
   <source src="assets/video/RAGV-fondo.mp4" type="video/mp4">
