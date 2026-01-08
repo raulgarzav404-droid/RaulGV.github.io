@@ -10,6 +10,14 @@ title: Home
   <source src="assets/video/RAGV-fondo.mp4" type="video/mp4">
 </video>
 
+<div id="overlay"></div>
+
+<div class="content">
+  <h1>🛡️ Bienvenido a mi página de ciberseguridad</h1>
+  <p>Este es el texto principal de tu página.</p>
+</div>
+
+
 
 # 🛡️ Bienvenido a mi página de ciberseguridad
 
