@@ -92,8 +92,9 @@ p {
   z-index: 1;
   padding: 40px 20px;
 }
-
+/*carrusel*/
 .carousel-item img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
   height: 500px;                  /* altura fija */
   object-fit: contain;            /* ajusta la imagen completa */
   background-color: rgba(0,0,0,0.5); /* negro con 50% transparencia */
@@ -173,3 +174,19 @@ a:hover, .btn:hover {
   left: 100%;
 }*/
 
+/*codigo del hover zoom*/
+.carousel-item img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  will-change: transform, box-shadow; /* mejora rendimiento */
+}
+
+.carousel-item img:hover {
+  transform: scale(1.06); /* zoom sutil */
+  box-shadow: 0 12px 28px rgba(0, 255, 0, 0.35); /* sombra verde */
+}
+/*evita desborde*/
+.carousel-item {
+transform: scale(1.1); /* prueba con un zoom más grande */
+  box-shadow: 0 12px 28px rgba(0, 255, 0, 0.7); /* sombra verde más intensa */
+
+}
