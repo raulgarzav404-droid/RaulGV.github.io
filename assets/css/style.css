@@ -190,3 +190,55 @@ transform: scale(1.1); /* prueba con un zoom más grande */
   box-shadow: 0 12px 28px rgba(0, 255, 0, 0.7); /* sombra verde más intensa */
 
 }
+
+/* ===== Timeline estilo hacker ===== */
+.timeline {
+  font-family: monospace;
+  color: #00ff00; /* verde hacker */
+  padding: 50px 20px;
+  position: relative;
+}
+
+.timeline h2 {
+  text-align: center;
+  color: #00ff00;
+  text-shadow: 0 0 10px #00ff00;
+  margin-bottom: 40px;
+}
+
+.timeline-container {
+  position: relative;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 800px;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+  padding-left: 40px;
+  border-left: 2px solid #00ff00; /* línea vertical */
+}
+
+.timeline-item::before {
+  content: ">";
+  position: absolute;
+  left: -15px;
+  top: 0;
+  color: #00ff00;
+  font-weight: bold;
+  text-shadow: 0 0 5px #00ff00;
+}
+
+.timeline-content {
+  background: rgba(0,0,0,0.7);
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,255,0,0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.timeline-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(0,255,0,0.9);
+}
