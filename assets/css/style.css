@@ -148,6 +148,9 @@ a:hover, .btn:hover {
   overflow: hidden;
 }
 
+/*tuve algunos problmeas con la ia por eso quiero ocultar esto para ver si no me afecta*/
+
+/*
 .card img::after {
   content: "";
   position: absolute;
@@ -162,8 +165,11 @@ a:hover, .btn:hover {
     transparent
   );
   transition: left 0.5s;
-}
+}*/
 
+
+/*
 .card img:hover::after {
   left: 100%;
-}
+}*/
+
