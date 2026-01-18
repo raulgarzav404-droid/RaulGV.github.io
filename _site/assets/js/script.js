@@ -1,9 +1,7 @@
 // Elemento donde se mostrará el efecto
 const el = document.getElementById("typing");
-
 // Texto final que se va a "descifrar"
 const finalText = "🛡️ Bienvenido a mi página de ciberseguridad";
-
 // Conjunto de caracteres aleatorios para el scramble
 const chars = "!@#$%^&*()_+=-{}[]<>?/|ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
 
@@ -29,6 +27,21 @@ let scrambleInterval = setInterval(() => {
   // Cuando termina de revelar todo el texto, se detiene
   if (iteration > finalText.length) clearInterval(scrambleInterval);
 }, 100); // velocidad en ms (100 = 0.1s por letra)
+
+
+
+// Animación para el timeline
+document.addEventListener("DOMContentLoaded", () => {
+  const items = document.querySelectorAll(".timeline-item");
+  items.forEach((item, index) => {
+    setTimeout(() => {
+      item.classList.add("visible");
+    }, index * 300); // efecto en cascada
+  });
+});
+
+
+
 
 function scanPorts() {
   // Obtiene la IP que el usuario escribió, o usa una por defecto

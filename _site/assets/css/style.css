@@ -84,7 +84,7 @@ p {
   width: 100%;
   height: 100%;
   background: rgba(0,0,0,0.4); /* ajusta opacidad: 0.3–0.6 */
-  z-index: 1;
+  z-index: 0;
 }
 /* Contenedor del contenido (asegura que quede arriba) */
 .content {
@@ -149,7 +149,7 @@ a:hover, .btn:hover {
   overflow: hidden;
 }
 
-/*tuve algunos problmeas con la ia por eso quiero ocultar esto para ver si no me afecta*/
+/*tuve algunos problemas con la ia por eso quiero ocultar esto para ver si no me afecta*/
 
 /*
 .card img::after {
@@ -219,6 +219,11 @@ transform: scale(1.1); /* prueba con un zoom más grande */
   padding-left: 40px;
   border-left: 2px solid #00ff00; /* línea vertical */
 }
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 
 .timeline-item::before {
   content: ">";
