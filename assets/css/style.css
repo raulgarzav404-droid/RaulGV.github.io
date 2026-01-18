@@ -242,3 +242,44 @@ transform: scale(1.1); /* prueba con un zoom más grande */
   transform: scale(1.05);
   box-shadow: 0 0 25px rgba(0,255,0,0.9);
 }
+
+/* Sección principal del simulador */
+.scanner {
+  font-family: monospace; /* estilo consola */
+  color: #00ff00;         /* verde hacker */
+  text-align: center;
+  margin: 50px 0;
+}
+
+/* Caja con input y botón */
+.scanner-box {
+  margin-bottom: 20px;
+}
+
+/* Input y botón con estilo hacker */
+.scanner input, .scanner button {
+  padding: 10px;
+  font-family: monospace;
+  border: 2px solid #00ff00;
+  background: black;
+  color: #00ff00;
+  border-radius: 5px;
+}
+
+/* Efecto hover en el botón */
+.scanner button:hover {
+  background: #00ff00;
+  color: black;
+  cursor: pointer;
+}
+
+/* Área de salida (resultados del escaneo) */
+#scanOutput {
+  background: rgba(0,0,0,0.8);
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  box-shadow: 0 0 15px rgba(0,255,0,0.5);
+  max-width: 600px;
+  margin: 0 auto;
+}
