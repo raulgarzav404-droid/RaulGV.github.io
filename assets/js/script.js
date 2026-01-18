@@ -60,3 +60,4 @@ const interval = setInterval(() => {
     output.textContent += "\nEscaneo completado ✅";
   }
 }, 700);
+}
