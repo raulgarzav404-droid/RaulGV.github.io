@@ -41,26 +41,22 @@ function scanPorts() {
   output.textContent = `Escaneando ${ip}...\n`;
 
   // Lista de puertos ficticios con sus servicios
-  const ports = [
-    { port: 22, service: "SSH" },
-    { port: 80, service: "HTTP" },
-    { port: 443, service: "HTTPS" },
-    { port: 3306, service: "MySQL" },
-    { port: 8080, service: "Proxy" }
-  ];
+const ports = [
+  { port: 22, service: "SSH", state: "open" },
+  { port: 80, service: "HTTP", state: "open" },
+  { port: 443, service: "HTTPS", state: "closed" },
+  { port: 3306, service: "MySQL", state: "filtered" },
+  { port: 8080, service: "Proxy", state: "open" }
+];
 
-  let i = 0; // contador de puertos
+let i = 0; // contador de puertos
 
-  // Intervalo que imprime resultados poco a poco (simula escaneo real)
-  const interval = setInterval(() => {
-    if (i < ports.length) {
-      // Agrega un puerto abierto al log
-      output.textContent += `Puerto ${ports[i].port}/tcp abierto (${ports[i].service})\n`;
-      i++;
-    } else {
-      // Cuando termina, detiene el intervalo
-      clearInterval(interval);
-      output.textContent += "\nEscaneo completado ✅";
-    }
-  }, 700); // velocidad en ms (700 = 0.7s entre cada puerto)
-}
+const interval = setInterval(() => {
+  if (i < ports.length) {
+    output.textContent += `Puerto ${ports[i].port}/tcp ${ports[i].state} (${ports[i].service})\n`;
+    i++;
+  } else {
+    clearInterval(interval);
+    output.textContent += "\nEscaneo completado ✅";
+  }
+}, 700);
