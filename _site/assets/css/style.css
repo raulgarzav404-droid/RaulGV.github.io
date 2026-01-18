@@ -288,18 +288,3 @@ transform: scale(1.1); /* prueba con un zoom más grande */
   margin: 20px auto;
   white-space: pre-wrap; /* mantiene saltos de línea */
 }
-/* Encabezado del simulador */
-.scanner h2 {
-  color: #00ff00;                /* verde hacker */
-  text-shadow: 0 0 10px #00ff00; /* brillo neón */
-  font-family: monospace;        /* estilo consola */
-  font-size: 2em;
-  margin-bottom: 20px;
-  animation: flicker 1.5s infinite alternate; /* efecto parpadeo */
-}
-
-/* Animación flicker tipo monitor viejo */
-@keyframes flicker {
-  from { opacity: 1; }
-  to { opacity: 0.7; }
-}
